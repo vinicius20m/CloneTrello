@@ -1,0 +1,46 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
+
+@import url('https://cdn.jsdelivr.net/npm/@mdi/font@5.x/css/materialdesignicons.min.css');
+
+@import "vuetify/dist/vuetify.min.css";
+
+main.page-content{
+
+      height: 100%;
+
+      /* background-image: url("https://static.vecteezy.com/ti/vetor-gratis/p2/2058253-fundo-branco-poligonal-abstrato-gr%C3%A1tis-vetor.jpg") !important; */
+      /* background-image: url("https://static.vecteezy.com/system/resources/previews/001/874/132/large_2x/abstract-geometric-white-background-free-vector.jpg") !important; */
+      background-image: url("https://static.vecteezy.com/system/resources/previews/001/632/409/large_2x/geometric-square-pattern-futuristic-perspective-background-free-vector.jpg") !important;
+      background-size: 100% 100%;
+}
+
+:root {
+      --color-secondary-light: #92adbdab ;
+      --lane-bg: #696e8b47 ;
+      --color-white: #f8fffdd1 ;
+}
+
+.navLink{
+      text-decoration: none ;
+      margin: 0 0.7rem ;
+}
+
+main{
+      min-height: 600px;
+
+}
+
+.v-toolbar__content a{
+      text-decoration: none;
+      color: #fff !important ;
+      transition: all 0.3s cubic-bezier(0.45, 0.05, 0, 0.61) !important;
+}
+
+.v-toolbar__content a:hover{
+      color: #373e62 !important ;
+}
+
+.row {
+      margin: 0 ;
+}
